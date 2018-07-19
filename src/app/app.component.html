@@ -1,0 +1,26 @@
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+<div id="container">
+  <div class = "contact">
+    <span><fa name="fas fa-phone"></fa>693-537-160</span>
+    <span><fa name="far fa-envelope"></fa>beatakulbaka@poczta.fm</span>
+    <span id="back" (click)="off()"><fa name="fas fa-angle-left"></fa>Powrót</span>
+  </div>
+  <div class= "photo"><img [src]="photoUrl" alt="photo" /></div>
+  <header>
+      <h1>Domek nad Wieprzem</h1>
+      <div id="overlay"></div>
+      <nav>
+          <button class="btn" type="button" (click)="showContent()">Oferta</button>
+          <button class="btn" type="button" (click)="showGallery()">Galeria</button> 
+          <button class="btn" type="button" (click)="showContact()">Kontakt</button>
+      </nav>
+      <div style="clear:both"></div>
+  </header>
+  <section>
+    <div id="text">
+    </div>
+  </section>
+  <footer>&copy;2018</footer>
+</div>
+
